@@ -15,13 +15,13 @@ This project implements a Transformer-based neural machine translation (NMT) mod
 + Inference pipeline generates French translations token-by-token
 
 # Model Architecture
-+ Embedding Layer: Word embedding + positional encoding
++ **Embedding Layer:** Word embedding + positional encoding
 
-+ Encoder: Stacked multi-head attention + feedforward blocks
++ **Encoder:** Stacked multi-head attention + feedforward blocks
 
-+ Decoder: Includes masked multi-head attention and cross-attention layers
++ **Decoder:** Includes masked multi-head attention and cross-attention layers
 
-+ Output: Final dense layer with softmax activation over French vocabulary
++ **Output:** Final dense layer with softmax activation over French vocabulary
 
 # Requirements
 + Python 3.8+
